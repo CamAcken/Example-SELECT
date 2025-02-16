@@ -34,7 +34,7 @@ insert into EmployeeUNI (id, unique_id) values ('90', '3')
 
 </details>
 
-# **My solution**
+# **My Solution**
 
 <details>
 
