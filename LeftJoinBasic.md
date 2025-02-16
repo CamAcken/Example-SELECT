@@ -1,4 +1,4 @@
-Left Join Problem
+# **Left Join Problem**
 
 This problem just serves as an introduction to Joins
 
@@ -34,4 +34,16 @@ insert into EmployeeUNI (id, unique_id) values ('90', '3')
 
 </details>
 
-My solution
+# **My solution**
+
+<details>
+
+<summary> Solution </summary>
+
+select unique_id, name from employees as emp
+
+left join employeeUNI as uni on uni.id = emp.id
+
+</details>
+
+
